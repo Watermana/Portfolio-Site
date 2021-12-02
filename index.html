@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- I tried to code everything as semantically as I could, so that it could be understood -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Austin Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" tpye="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+        <!-- Here I link my css file as well as normalize.css for browser compatiblilty-->
+    <style>
+      header {
+        position: absolute;
+        top: 45%;
+        left:50%;
+        transform: translateY(-45%);
+        transform: translateX(-50%);
+      }
+      /*The code above is to place my heading in the center of the page*/
+      
+      body {
+        animation: fadeIn ease 4s;
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      /*This is to make everything fade in over 4 seconds. It starts at 0% opacity then fades to 100%.
+      */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Austin Waterman</h2>
+      <nav>
+        <a href="projects.html" class="btn">Projects</a>
+        <a href="about-me.html" class="btn">About Me</a>
+        <a href="contact.html" class="btn">Contact</a>
+        <!-- here are my links to my different pages-->
+      </nav>
+    </header>
+    <main>
+    </main>
+  </body>
+</html>

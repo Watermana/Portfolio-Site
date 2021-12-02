@@ -1,0 +1,62 @@
+header h2, header h2 a{
+  text-align:center;
+  font-family: "cutive mono", monospace;
+  color:white;
+  font-size:40px;
+  padding: 0px;
+  margin:0px;
+  text-decoration:none;
+}
+/* Here is the code for my title */
+main p, main ol, main ul, main h1, main h2, main h3{
+  margin-left:20px;
+}
+body {
+  background-image:url("images/landing-page-bgd.jpg"); 
+  /*background-color:rgb(173, 173, 173);*/
+}
+header nav {
+  text-align:center;
+}
+.align-center {
+  text-align:center;
+}
+main {
+  font-family:"cutive mono", monospace;
+  color:white;
+}
+img {
+  margin-top:20px;
+  border: 2px solid white;
+}
+.btn {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin:0px;
+  padding: 2px 12px;
+  border-radius: 4px;
+  color:white;
+
+}
+footer {
+  background-color:rgb(20, 56, 97);
+  color:white;
+  font-family: "cutive mono", monospace;
+  margin:70px 0 0 0;
+  padding:15px;
+}
+a:link {
+  color:white;
+}
+a:visitor {
+  color:white;
+}
+a:hover {
+  color:rgb(163, 163, 163);
+}
+a:active {
+  color:white;
+}
